@@ -1,0 +1,39 @@
+{
+	"$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"vmAdminUserName": {
+			"value": "testadmin"
+		},
+		"vmAdminPassword": {
+			"value": "P@ssw0rd01"
+		},
+		"vmName": {
+			"value": "qatodhsub123"
+		},
+		"VSTSAccount": {
+			"value": "testdevops"
+		},
+		"teamProject": {
+			"value": "testdevops"
+		},
+		"PersonalAccessToken": {
+			"value": "y437kbc5zo6lk5jbkulumkexqqferzf3wcv24jwiynd6lebz5bya"
+		},
+		"poolName": {
+			"value": "linux pool"
+		},
+		"existingVirtualNetworkName": {
+			"value": "vnet01qaodhsub"
+		},
+		"existingSubnetName": {
+			"value": "vnet01-qaodhsub"
+		},
+		"existingVirtualNetworkResourceGroupName": {
+			"value": "Testpoc"
+		},
+		"vmSize": {
+			"value": "Standard_B2ms"
+		}
+	}
+}
